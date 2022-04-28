@@ -24,7 +24,7 @@ nav {
     align-items: center;
     font-family: system-ui,
     -apple-system, helvetica, arial, sans-serif;
-    background: rgb(240, 101, 9);
+    background: black;
     height: 20vh;
 }
 
@@ -38,11 +38,13 @@ main {
 .nav-list{
     list-style: none;
     display: flex;
+    font-size: 22px;
 }
 
 .nav-list li {
     letter-spacing: 3px;
-    margin-left: 20px;
+    margin-left: 40px;
+    color: black;
 }
 
 .mobile-menu {
@@ -58,32 +60,13 @@ main {
     margin: 8px;
 }
 
-@media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: black;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-    }    
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
+.text-page {
+    margin-top: 32px;
+    margin-left: 40px;
+    background-color: white;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    font-size: 22px;
+    max-width: 500px;
+    text-align: justify;
 }
-    .nav-list.active {
-        transform: translateX(0);
-    }
