@@ -1,0 +1,25 @@
+*{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{ text-align: center;
+    margin: 0;
+    background-color: orange;
+}
+
+ul{  
+    margin: 0;
+    background-color: black;
+    list-style: square;
+
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid orange;
+
+
+}
