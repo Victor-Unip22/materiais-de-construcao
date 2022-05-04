@@ -1,0 +1,110 @@
+body{background-color: orange;}
+h1{color: white;
+    font-size: 50px}
+*{
+    margin:0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+#slider{
+    height: 500px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer{
+    width: 85%;
+    margin:auto;
+}
+
+.slide-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+.slide-img a{
+    opacity:0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.slide-img:hover a{
+    opacity:1;
+   transform: scale(1);
+}
+
+.img-1{
+    background-image: url(https://projectapb.vteximg.com.br/arquivos/ids/309059-1000-1000/interruptor-simples-2x4-com-placa-modular---pluzie-_-teclas_-1-1.jpg?v=637809994871430000)
+}
+.img-2{
+    background-image: url(https://telhanorte.vteximg.com.br/arquivos/ids/309713-NaN-NaN/Conduite-corrugado-flexivel-25mm-50-metros-amarelo-Tigre.jpg?v=636646659115130000)
+}
+.img-3{
+    background-image: url(https://www.santerra.com.br/img/produtos/24535.jpg)
+}
+.img-4{
+    background-image: url(https://www.plastolandia.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/7/27958320.jpg)
+}
+.img-5{
+    background-image: url(https://rio.outletdastintas.com.br/wp-content/uploads/2017/01/rende-muito-18l-outletdastintas.jpg)
+}
+.img-6{
+    background-image: url(https://telhanorte.vteximg.com.br/arquivos/ids/305490-NaN-NaN/Rolo-para-pintura-5cm-espuma-para-verniz-esmalte-e-oleo-1341-Tigre.jpg?v=636645306166400000)
+}
+.img-7{
+    background-image: url(https://carajas.vteximg.com.br/arquivos/ids/26338766-400-400/carjas-s3-ecommerce-carajasonline-7899719800000_1.jpg?v=637864763078930000)
+}
+.img-8{
+    background-image: url(https://telhanorte.vteximg.com.br/arquivos/ids/300829-NaN-NaN/Piso-Rotocolor-Imbuia-4475x4475cm-bege-claro-Formigres.jpg?v=636645293449800000)
+}
+.img-9{
+    background-image: url(https://www.araguaiaconstrucao.com.br/6725-thickbox_default/meio-saco-de-cimento-cp-ii-25kg.jpg)
+}
+.img-10{
+    background-image: url(https://maneirasimples.files.wordpress.com/2012/11/martelo-comum.jpg)
+}
+.img-11{
+    background-image: url(http://jqcvidros.com.br/wp/wp-content/uploads/2013/12/trena-metrica.jpg)
+}
+.img-12{
+    background-image: url(https://telhanorte.vteximg.com.br/arquivos/ids/302916-NaN-NaN/Folha-de-porta-lisa-de-madeira-210x60x35cm-padrao-mogno-Vert.jpg?v=636645299119070000)
+}
+.img-13{
+    background-image: url(https://cdn.awsli.com.br/1000x1000/302/302926/produto/134861757/0c5b8b44cc.jpg)
+}
+.img-14{
+    background-image: url(https://a-static.mlcdn.com.br/618x463/torneira-para-cozinha-de-mesa-bica-movel-1-4-p61-japi-cromado/madeiramadeira-openapi/404271/7fe324b7f71ec963fff3a6df2503aa8f.jpg)
+}
+.img-15{
+    background-image: url(https://img.lojadomecanico.com.br/165/31/356/118614/1568929200895.JPG)
+}
+
+@media(max-width:1600px){
+    .container{
+        width:100%;
+    }
+}
