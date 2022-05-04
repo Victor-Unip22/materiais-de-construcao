@@ -1,0 +1,29 @@
+.group{
+    background-color: orange;
+    text-align: center;
+    font-family: verdana;
+}
+
+.title{
+    background-color: orange;
+    text-align: center;
+    font-family: verdana;
+}
+
+.body{
+    background-color: grey;
+    text-align: center;
+    font-family: verdana;
+}
+
+table, th, td {
+    background-color: grey;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 40px;
+}
