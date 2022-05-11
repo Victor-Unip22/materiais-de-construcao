@@ -9,3 +9,5 @@ Vinicius Henrique de Souza Gomes - RA: N8582E6
 Victor Teixeira das Dores - RA: N889896
 
 Tema de site escolhido pelo grupo: Materiais de construção
+
+Link da hospedagem https://627c1be0f51108007b1c14a3--casanovamateriais.netlify.app/
