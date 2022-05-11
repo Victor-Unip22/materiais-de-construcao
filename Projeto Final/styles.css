@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial, sans-serif;
+    background: black;
+    height: 20vh;
+  }
+
+  main {
+    background: url() no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+  }
+
+  .nav-list{
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+  }
+
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 40px;
+    color: black;
+  }
+
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+  }
+
+  .text-page {
+    padding-bottom: 44px;
+    margin-top: 32px;
+    margin-left: 40px;
+    background-color: rgb(245 125 69);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    max-width: 500px;
+    text-align: justify;
+    display: inline-block;
+  }
+
+  /* Accordion */
+  .accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 22px;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(245 125 69);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796";
+  }
+
+  /* Produtos promoção */
+  body{background-color: rgb(245 125 69)}
+  h1{color: white;
+      font-size: 50px}
+  *{
+      margin:0;
+  }
+  body{
+      font-family: 'Arial', sans-serif;
+  }
+
+  #slider{
+      height: 500px;
+      border:1px solid rgb(247, 140, 53);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .container{
+      width: 1600px;
+      margin: auto;
+  }
+
+  .subcontainer{
+      width: 85%;
+      margin:auto;
+  }
+
+  .slide-img{
+      width: 250px;
+      height: 250px;
+      border-radius: 5px;
+      background-position: center;
+      background-size: cover;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+  }
+
+  .slide-img:hover{
+      box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+
+  .slide-img a{
+      opacity:0;
+      text-decoration: none;
+      transform: scale(0);
+      transition: 0.8s;
+      font-size: 1.5rem;
+      color:white;
+  }
+
+  .slide-img:hover a{
+      opacity:1;
+     transform: scale(1);
+  }
+
+  .img-1{
+      background-image: url(http://www.lojaeletrica.com.br/images/product/47DE5150420154312_zo.jpg)
+  }
+  .img-2{
+      background-image: url(https://a-static.mlcdn.com.br/618x463/disjuntor-din-bipolar-50-a-tramontina/wwwgorgulhocombr/35654/dad7e462a4917789be9e049bc4a5ac24.jpg)
+  }
+  .img-3{
+      background-image: url(https://telhanorte.vteximg.com.br/arquivos/ids/325950-NaN-NaN/Interruptor-simples-e-tomada-distanciados-10A-com-placa-Habitat-Fame.jpg?v=636650997343630000)
+  }
+  .img-4{
+      background-image: url(https://www.inspirehome.com.br/media/catalog/product/cache/6c29bd58154b9ef7ac5bf02eec8053fa/l/a/lampada-led-mini-bulbo-bolinha-e27-2400k-3w-bivolt---save-energy-se-225.1150.jpg)
+  }
+  .img-5{
+      background-image: url(https://www.taqi.com.br/ccstore/v1/images/?source=/file/v4714035781524528138/products/041393.00-tubo-amanco-marrom-25mm-6-metros.jpg&height=500&width=500&quality=0.9)
+  }
+
+
+
+  @media(max-width:1600px){
+      .container{
+          width:100%;
+      }
+  } 
+
+/* Produtos da loja */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  nav body {
+    background-color: rgb(245 125 69);
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  h1 .text-page {
+    font-size: 50px;
+    word-break: break-all;
+    color: white;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+     color: white;
+  }
+  
+/* Serviços */
+
+.group {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.title {
+   
+    background-color: rgb(245 125 69);
+    text-align: left;
+    color: #020000;
+    
+}
+
+.body {
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+table, th, td {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 20px;
+}
+
+table {
+    width: 115%;
+}
+
+tr {
+    height: 40px;
+}
+
+/* Dúvidas */
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #020000;
+  color: white;
+  padding: 20px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Contatos */
+
+.text-information
+{ 
+    text-align: center;
+    margin: 8px;
+    text-size-adjust: 8px;
+    background-color: rgb(245 125 69);
+    color: white;
+    padding-bottom: 36px;
+}
+
+ul{  
+    padding: 55px;
+    margin: 0px;
+    background-color: black;
+    list-style: square;
+
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    margin-left: 14px;
+
+}
